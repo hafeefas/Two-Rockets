@@ -1,0 +1,57 @@
+Use static methods to show structure and eliminate redundancy in your solution. You need to use a
+few methods, and there is no blank line in the figure, and there is one space between two
+rockets at the closest place.
+
+public class TwoRockets{
+
+     public static void main(String []args){
+         
+         triangle();
+         square();
+         country();
+         squaretwo();
+         extra();
+     }
+     
+     public static void triangle()
+     {
+         System.out.println("   /\\" + "       /\\");
+         System.out.println("  /  \\" + "     /  \\ ");
+         System.out.println(" /    \\" + "   /    \\ ");
+
+     }
+     
+     public static void square(){
+        System.out.println("+------+" + " +------+");
+        System.out.println ("|      |" + " |      |");
+        System.out.println ("|      |" + " |      |");
+        System.out.println("+------+" + " +------+");
+
+         
+     }
+     
+     public static void country (){
+         System.out.println ("|United|" + " |United|");
+         System.out.println ("|States|" + " |States|");
+         System.out.println("+------+" + " +------+");
+
+
+     }
+     
+     public static void squaretwo(){
+        System.out.println ("|      |" + " |      |");
+        System.out.println ("|      |" + " |      |");
+        System.out.println("+------+" + " +------+");
+
+
+         
+     }
+     public static void extra(){
+         
+         System.out.println("   /\\" + "       /\\");
+         System.out.println("  /  \\" + "     /  \\ ");
+         System.out.println(" /    \\" + "   /    \\ ");
+     }
+         
+         
+     }
